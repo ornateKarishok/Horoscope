@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".horoscope_list.ui.HoroscopeListActivity">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:contentDescription="@string/background_image_content_description"
+            android:scaleType="fitXY" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/gif_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/list_of_horoscope_signs_content_description" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

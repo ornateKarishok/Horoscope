@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Horoscope</string>
+    <string name="horoscope">Horoscope</string>
+    <string name="find_out_your_horoscope">Find out your horoscope</string>
+    <string name="exit_the_application">Exit the application</string>
+    <string name="background_image_content_description">Background image</string>
+    <string name="are_you_sure_you_want_to_exit">Are you sure you want to exit the application?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="horoscope_image_content_description">Horoscope image</string>
+    <string name="list_of_horoscope_signs_content_description">List of horoscope signs</string>
+
+</resources>
